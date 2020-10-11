@@ -1,14 +1,15 @@
 History
 -------
 
-In development
---------------
+2.3.0
+------
 * Fix bug in Bahai calculations during Ayyám-i-Há (#32). Thanks @chiuczek
 * Regularize variable names:
  - coptic: rename `MONTH_NAMES` to `MONTHS`, rename `DAY_NAMES` to `WEEKDAYS`
  - french_republican: add `MONTHS`
  - mayan: rename `HAAB_MONTHS` to `HAAB`, rename `TZOLKIN_NAMES` to `TZOLKIN`
 * Add some Jewish and Islamic holidays to `holidays`: `shemini_azeret`, `lag_baomer`, `tu_beshvat`, `tisha_bav`, `ramadan`, `ashura`, `eid_alfitr`, `eid_aladha`.
+* Add docs. See https://convertdate.readthedocs.io/
 
 2.2.2
 -----
