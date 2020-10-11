@@ -24,7 +24,8 @@ matrix:
       - pypy
       - pypy3 
   allow_failures:
-   - python: pypy3
+   - arch: amd64
+     python: pypy3
 
 # Use container-based infrastructure
 sudo: false
